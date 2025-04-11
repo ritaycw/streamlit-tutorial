@@ -1,5 +1,9 @@
 # Streamlit Tutorial
 
+## Introduction Slides
+
+[Streamlit Tutorial Google Slides](https://docs.google.com/presentation/d/1bqv-hK8LkRObKxYQLgJpZObYWEIfnX8cDWlPako3HFw/edit?usp=sharing)
+
 ## Quick Start
 
 Install
