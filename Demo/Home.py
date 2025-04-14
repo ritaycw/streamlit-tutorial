@@ -8,10 +8,11 @@ st.title("🌟 Streamlit Demo App")
 st.markdown("Welcome to the **Streamlit demo**.")
 st.write("This app showcases key features like layout, interaction, and session state.")
 
+
 # Layout using columns
 st.markdown("### 🔲 Columns Layout Example")
 col1, col2, col3 = st.columns(3)
-# col1, col2 = st.columns([2, 1])
+
 
 with col1:
     st.write("This is the first column 👈")
@@ -20,9 +21,12 @@ with col2:
 with col3:
     st.write("👉 This is the third column")
 
+
 # Sidebar example
 st.sidebar.title("Sidebar")
 st.sidebar.write("This is a sidebar. Use it for filters or navigation.")
+
+
 
 # Text input and selectbox
 st.markdown("### 🧑‍💻 User Input")
@@ -35,8 +39,8 @@ with col2:
 
 if st.button("Submit"):
     st.write(f"Hello, **{name}**! You selected **{fruit}**.")
-# if name:
-#     st.markdown(f"<h3>Hello, <b>{name}</b>! You selected <b>{fruit}</b>.</h3>", unsafe_allow_html=True)
+
+
 
 
 # Display table
@@ -48,6 +52,8 @@ data = pd.DataFrame({
 st.table(data)
 st.table(data[data["Fruit"] == fruit])
 st.write(data)
+
+
 
 # Session state + button
 st.markdown("### 🔄 Session State Example")
