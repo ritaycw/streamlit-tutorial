@@ -11,4 +11,4 @@ st.write(f"Current counter value: **{st.session_state.count}**")
 
 if st.button("Reset Counter"):
     st.session_state.count = 0
-    st.experimental_rerun()
+    st.rerun()
